@@ -1,5 +1,5 @@
 # Creative-Coding-Assignment-Bass-Practice-Partner
-# Project Name
+# Bass Practice Partner
 > Outline a brief description of your project.
 > Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
 
@@ -26,9 +26,8 @@
 
 
 ## Technologies Used
-- Tech 1 - version 1.0
-- Tech 2 - version 2.0
-- Tech 3 - version 3.0
+- Sonic Pi v5.0 on Mac
+
 
 
 ## Features
