@@ -20,7 +20,11 @@
 ## General Information
 - Provide general information about your project here.
 - What problem does it (intend to) solve?
+This prototype intends to solve the problem of bass players lacking appropriate backing tracks for jazz improvisation practice. Most tracks are built for melodic instruments and aren’t adjustable, making them difficult to practice with. 
+
 - What is the purpose of your project?
+The purpose of my project is to provide a 12 -bar blues jazz backing track, built for bass players. I aimed to integrate an adjustable tempo, key signature, and ability to adjust which instruments are playing.
+
 - Why did you undertake it?
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
