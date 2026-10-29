@@ -1,8 +1,6 @@
 # Creative-Coding-Assignment-Bass-Practice-Partner
 # Bass Practice Partner
-> Outline a brief description of your project.
-> Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
-
+Bass Practice Partner is an interactive, customisable 12-bar blues backing track developed using Sonic Pi to help bass guitarists practice improvisation. Users can adjust the key signature, tempo and accompanying instruments to suit their practice needs. As a bass guitarist, I developed this project to create a flexible practice tool while exploring how coding can be used to support musical creativity.
 ## Table of Contents
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
@@ -18,27 +16,24 @@
 
 
 ## General Information
-- Provide general information about your project here.
-- What problem does it (intend to) solve?
-This prototype intends to solve the problem of bass players lacking appropriate backing tracks for jazz improvisation practice. Most tracks are built for melodic instruments and aren’t adjustable, making them difficult to practice with. 
+Practicing bass improvisation often requires a backing track or other musicians to provide accompaniment. However, pre-recorded backing tracks often offer limited opportunities to customise the arrangement during practice, and are bass heavy, making it difficult to hear yourself playing clearly. 
 
-- What is the purpose of your project?
-The purpose of my project is to provide a 12 -bar blues jazz backing track, built for bass players. I aimed to integrate an adjustable tempo, key signature, and ability to adjust which instruments are playing.
+Bass Practice Partner addresses this by allowing users to control different elements of a 12-bar blues arrangement in real time.
 
-- Why did you undertake it?
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
+I developed this project as part of a university coding assignment, using my musical knowledge to explore programming concepts through a practical and creative application.
 
 ## Technologies Used
 - Sonic Pi v5.0 on Mac
-
-
+- Ruby based Domain Specific Language
+- External audio sampling
 
 ## Features
-List the ready features here:
-- Awesome feature 1
-- Awesome feature 2
-- Awesome feature 3
+- Adjustable key signature: Change the musical key without interrupting playback, with changes applied at the beginning of the next 12-bar progression.
+- Tempo control: Adjust the playback speed to suit different practice levels.
+- Individual instrument controls: Enable or disable individual instruments to customise the arrangement.
+- Swing rhythm: Uses alternating beat durations to recreate the uneven rhythmic timing of swing jazz.
+- Custom brass and wind sounds: Combines synthesisers and external audio samples to reproduce trombone, trumpet and saxophone sounds.
+- Synchronised playback: Coordinates the different instrumental parts throughout the arrangement.
 
 
 ## Screenshots
@@ -47,47 +42,74 @@ List the ready features here:
 
 
 ## Setup
-What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
+To run Bass Practice Partner: 
+1. Download and Install Sonic Pi.
+2. Download the project code and the accompanying audio samples:
+   > trumpet.wav
+   > alto-sax.wav
+4. Open Sonic Pi and load the project code into a clean buffer.
+5. Locate the sample commands in the trumpet and saxophone functions.
+6. Replace existing file paths with the locations where you saved the corresponding .wav files on your computer.
+7. Press RUN to start the backing track.
+   
+Important: Both audio files are required for the trumpet and saxophone parts to play correctly. The other instruments use Sonic Pi's built in synthesisers and samples.
 
-Proceed to describe how to install / setup one's local environment / get started with the project.
 
+## How to use
+The main controls are located at the beginning of the code under BASS PRACTICE SETTINGS and INSTRUMENT CONTROLS. 
+1. Adjusting the Tempo
+Change the value of use_bpm to change the playback speed.
 
-## Usage
-How does one go about using it?
-Provide various use cases and code examples here.
+use_bmp 110
 
-`write-your-code-here`
+The default tempo is 110 beats per minute (BPM). Lower values produce a slower backing track while higher values increases the speed.
 
+2. Changing the Key Signature
+Modify requested_key to select the key you want to practice in.
+set :requested_key, :d
+The default key is D. Replace :d with another note, such as :c, :f or :g
+The program automatically applies the requested key at the beginning of the next 12-bar progression, allowing the instruments to change key together without interuptting playback.
 
+3. Selecting Instruments
+Each instrument can be individually enabled or disabled using Boolean values (true or false)
+
+set :piano_on, false
+set :trombone_on, false
+set :trumpet_on, false
+set :sax_on, false
+set :drums_on, true
+
+> true - the instrument plays
+> false - the instrument is muted
+
+Change these values to create different combinations of accompaniment.
+By default, only the drums are enabled.
+
+4. Applying Changes
+After adjusting the settings, press RUN again to update the program (this will not stop the playback).
+
+5. Practicing improvisation
+Once the backing track begins:
+1. Listen to the four-beat count in
+2. Play along with the repeating 12-bar progression
+3. Experiment with different bass scales, improvisation techniques and rhythms
+4. Adjust the tempo, key and accompanying instruments to create different practice scenarios 
+   
 ## Project Status
-Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
-
+Project is: Functional Prototype
+The main features have been implemented. The project currently operates within Sonic Pi and requires users to modify settings through the code. 
 
 ## Room for Improvement
-Include areas you believe need improvement / could be improved. Also add TODOs for future development.
 
 Room for improvement:
-- Improvement to be done 1
-- Improvement to be done 2
+- User Interface: Develop a more intuitive interface that allows users to adjust settings without directly editing code.
+- Accessibility: Conduct further testing with musicians of varying experience levels to ensure the controls are easy to understand.
+- Code Structure: Improve the organisation of manually programmed melodies by introducing additional reusable functions.
+- Instrument realism: Continue experimenting with external samples and sound manipulation to improve the quality of instruments, especially the saxophone, which I wasn't satisfied with. 
 
-To do:
-- Feature to be added 1
-- Feature to be added 2
+
 
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- This project was based on [this tutorial](https://www.example.com).
-- Many thanks to...
 
 
-## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
