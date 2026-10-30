@@ -1,6 +1,6 @@
 # Creative-Coding-Assignment-Bass-Practice-Partner
 # Bass Practice Partner
-Bass Practice Partner is an interactive, customisable 12-bar blues backing track developed using Sonic Pi to help bass guitarists practice improvisation. Users can adjust the key signature, tempo and accompanying instruments to suit their practice needs. As a bass guitarist, I developed this project to create a flexible practice tool while exploring the creative possibilities of code.
+Bass Practice Partner is an interactive, customisable 12-bar blues backing track created using Sonic Pi to help bass guitarists practice jazz improvisation. Users can adjust the key signature, tempo and accompanying instruments to suit their practice needs. As a bass guitarist, I developed this project to create a flexible practice tool while exploring the creative possibilities of code.
 ## Table of Contents
 * [General Info](#general-information)
 * [Video Demonstration](#video-demonstration)
@@ -17,7 +17,7 @@ Bass Practice Partner is an interactive, customisable 12-bar blues backing track
 
 
 ## General Information
-Practicing bass improvisation often requires a backing track or other musicians to provide accompaniment. However, pre-recorded backing tracks often offer limited opportunities to customise the arrangement during practice, and are bass heavy, making it difficult to hear yourself playing clearly. 
+Pre-recorded backing tracks aren't often ideal for bass practice, whether that is because they are too bass heavy, or lacking opportunities to customise the arrangement during practice, making it difficult to hear yourself playing clearly. 
 
 Bass Practice Partner addresses this by allowing users to control different elements of a 12-bar blues arrangement in real time.
 
@@ -33,11 +33,11 @@ Watch video demonstration here > [https://youtu.be/fyaDzqhWGfs]
 - External audio sampling
 
 ## Features
-- Adjustable key signature: Change the musical key without interrupting playback, with changes applied at the beginning of the next 12-bar progression.
-- Tempo control: Adjust the playback speed to suit different practice levels.
+- Adjustable key signature: Change the musical key without interrupting playback.
+- Tempo control: Adjust the playback speed to suit different practice needs.
 - Individual instrument controls: Enable or disable individual instruments to customise the arrangement.
-- Swing rhythm: Uses alternating beat durations to recreate the uneven rhythmic timing of swing jazz.
-- Custom brass and wind sounds: Combines synthesisers and external audio samples to reproduce trombone, trumpet and saxophone sounds.
+- Plays a swing rhythm composition
+- Custom sounds: Uses both synthesisers and external audio samples to recreate a jazz ensemble, including trombone, percussion, keyboard trumpet and saxophone.
 - Synchronised playback: Coordinates the different instrumental parts throughout the arrangement.
 
 
