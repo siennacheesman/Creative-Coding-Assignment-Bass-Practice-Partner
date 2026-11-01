@@ -53,7 +53,7 @@ To run Bass Practice Partner:
    - Trumpet External Sample (to download)
 4. Open Sonic Pi and load the project code into a clean buffer.
 5. Locate the sample commands in the trumpet and saxophone functions.
-6. Replace existing file paths with the locations where you saved the corresponding .wav files on your computer.
+6. Replace existing file paths by dragging and dropping the corresponding .wav files from your computer into Sonic Pi.
 7. Press RUN to start the backing track.
    
 Important: Both audio files are required for the trumpet and saxophone parts to play correctly. The other instruments use Sonic Pi's built in synthesisers and samples.
@@ -62,28 +62,28 @@ Important: Both audio files are required for the trumpet and saxophone parts to 
 ## How to use
 The main controls are located at the beginning of the code under BASS PRACTICE SETTINGS and INSTRUMENT CONTROLS. 
 1. Adjusting the Tempo
-Change the value of use_bpm to change the playback speed.
-The default tempo is 110 beats per minute (BPM). Lower values slow down the backing track, while higher values increase its speed.
+- Change the value of use_bpm to change the playback speed.
+- The default tempo is 110 beats per minute (BPM). Lower values slow down the backing track, while higher values increase its speed.
 
 2. Changing the Key Signature
-Modify requested_key to select the key you want to practice in.
-The default key is C. Replace :c with another note, such as :d, :f or :g
-The program applies the requested key at the next 12-bar progression, allowing instruments to change key together without interrupting playback.
+- Modify requested_key to select the key you want to practice in.
+- The default key is C. Replace :c with another note, such as :d, :f or :g
+- The program applies the requested key at the next 12-bar progression, allowing instruments to change key together without interrupting playback.
 
 3. Selecting Instruments
-Each instrument can be enabled or disabled independently using Boolean values (true or false)
+- Each instrument can be enabled or disabled independently using Boolean values (true or false)
 
-> true - the instrument plays
-> false - the instrument is muted
+- true - the instrument plays
+- false - the instrument is muted
 
-Change these values to create different combinations of accompaniment.
-By default, only the drums are enabled.
+- Change these values to create different combinations of accompaniment.
+- By default, only the drums are enabled.
 
 4. Applying Changes
-After adjusting the settings, press RUN to apply your changes. Sonic Pi supports live coding, allowing the program to update while the music keeps playing.
+- After adjusting the settings, press RUN to apply your changes. Sonic Pi supports live coding, allowing the program to update while the music keeps playing.
 
 5. Practicing improvisation
-Once the backing track begins:
+- Once the backing track begins:
 1. Listen to the four-beat count in
 2. Play along with the repeating 12-bar progression
 3. Experiment with different bass scales, improvisation techniques and rhythms
