@@ -12,7 +12,6 @@ Bass Practice Partner is an interactive, customisable 12-bar blues backing track
 * [Project Status](#project-status)
 * [Room for Improvement](#room-for-improvement)
 * [Acknowledgements](#acknowledgements)
-* [Contact](#contact)
 <!-- * [License](#license) -->
 
 
