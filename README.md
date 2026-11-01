@@ -73,8 +73,8 @@ The main controls are located at the beginning of the code under BASS PRACTICE S
 3. Selecting Instruments
 - Each instrument can be enabled or disabled independently using Boolean values (true or false)
 
-- true - the instrument plays
-- false - the instrument is muted
+   - true - the instrument plays
+   - false - the instrument is muted
 
 - Change these values to create different combinations of accompaniment.
 - By default, only the drums are enabled.
@@ -91,7 +91,7 @@ The main controls are located at the beginning of the code under BASS PRACTICE S
    
 ## Project Status
 Project is: Functional Prototype
-All core features have been implemented, including adjustable key signature, tempo control and independent instrument settings. The prototype operates within Sonic Pi and currently requires users to modify settings directly in the code.
+- All core features have been implemented, including adjustable key signature, tempo control and independent instrument settings. The prototype operates within Sonic Pi and currently requires users to modify settings directly in the code.
 
 ## Room for Improvement
 
