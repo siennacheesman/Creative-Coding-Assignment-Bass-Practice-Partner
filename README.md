@@ -113,4 +113,4 @@ Room for improvement:
 - Sonic Pi. (n.d.). 5.3 Conditionals. Sonic Pi. Retrieved October 2026, from https://sonic-pi.net/tutorial-05.html#tut-05-3-conditionals- Sonic Pi. (n.d.). 3.6 External samples. Sonic Pi. Sonic-Pi.Et. Retrieved 5 October 2026, from https://sonic-pi.net/tutorial-03.html
 - Sonic Pi. (n.d.). 10 Time State. Sonic Pi. Retrieved October 2026, from https://sonic-pi.net/tutorial-10.html#tut-10-state
 - Łyczywek, R. (2018, October 15). How to write a good README for your GitHub project? Bulldogjob. Bulldogjob.Com. https://bulldogjob.com/readme/how-to-write-a-good-readme-for-your-github-project
-- Zulla, H. (2016, May 23). 7.3 Sliding-Parameters. GitHub. Sonic-Pi-Net . https://github.com/sonic-pi-net/sonic-pi/blob/dev/etc/doc/tutorial/07.3-Sliding-Parameters.md
+- Zulla, H. (2016, May 23). 7.3 Sliding-Parameters. GitHub. https://github.com/sonic-pi-net/sonic-pi/blob/dev/etc/doc/tutorial/07.3-Sliding-Parameters.md
