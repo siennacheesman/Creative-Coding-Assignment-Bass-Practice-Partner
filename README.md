@@ -8,7 +8,7 @@ Bass Practice Partner is an interactive, customisable 12-bar blues backing track
 * [Features](#features)
 * [Screenshots](#screenshots)
 * [Setup](#setup)
-* [How to use](#How to use)
+* [How to use](#How-to-use)
 * [Project Status](#project-status)
 * [Room for Improvement](#room-for-improvement)
 * [Acknowledgements](#acknowledgements)
@@ -25,7 +25,7 @@ I developed this project as part of a university coding assignment, using my mus
 
 ## Video Demonstration 
 Watch Bass Practice Partner in action!
-Watch video demonstration here > [https://youtu.be/fyaDzqhWGfs]
+Watch video demonstration here > https://youtu.be/fyaDzqhWGfs
 
 ## Technologies Used
 - Sonic Pi v5.0 on Mac
@@ -65,15 +65,15 @@ The main controls are located at the beginning of the code under BASS PRACTICE S
 1. Adjusting the Tempo
 Change the value of use_bpm to change the playback speed.
 
-use_bmp 110
+use_bpm 110
 
-The default tempo is 110 beats per minute (BPM). Lower values produce a slower backing track while higher values increases the speed.
+The default tempo is 110 beats per minute (BPM). Lower values produce a slower backing track while higher values increase the speed.
 
 2. Changing the Key Signature
 Modify requested_key to select the key you want to practice in.
-set :requested_key, :d
-The default key is D. Replace :d with another note, such as :c, :f or :g
-The program automatically applies the requested key at the beginning of the next 12-bar progression, allowing the instruments to change key together without interuptting playback.
+set :requested_key, :c
+The default key is C. Replace :d with another note, such as :d, :f or :g
+The program automatically applies the requested key at the beginning of the next 12-bar progression, allowing the instruments to change key together without interrupting playback.
 
 3. Selecting Instruments
 Each instrument can be individually enabled or disabled using Boolean values (true or false)
