@@ -1,6 +1,6 @@
 # Creative-Coding-Assignment-Bass-Practice-Partner
 # Bass Practice Partner
-Bass Practice Partner is an interactive, customisable 12-bar blues backing track created using Sonic Pi to help bass guitarists practice jazz improvisation. Users can adjust the key signature, tempo and accompanying instruments to suit their practice needs. As a bass guitarist, I developed this project to create a flexible practice tool while exploring the creative possibilities of code.
+Bass Practice Partner is an interactive, customisable 12-bar blues backing track created using Sonic Pi to help bass guitarists practice jazz improvisation. Users can adjust the key signature, tempo and accompanying instruments to suit their practice needs. As a bass guitarist, I developed this project to create a flexible practice tool while exploring the creative possibilities of code. Please see Bass Practice Partner Prototype submission to see my code, Coding Progress folder was for my personal use.
 ## Table of Contents
 * [General Info](#general-information)
 * [Video Demonstration](#video-demonstration)
