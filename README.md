@@ -42,7 +42,7 @@ Watch video demonstration here > https://youtu.be/fyaDzqhWGfs
 
 
 ## Screenshots
-! [Bass practice partner controls] (sonic-pi-controls)
+![Bass practice partner controls](images/sonic-pi-controls.png)
 
 
 
