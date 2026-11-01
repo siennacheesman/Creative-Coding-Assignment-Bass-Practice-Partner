@@ -104,13 +104,15 @@ Room for improvement:
 ## Acknowledgements
 - Aaron, S. (2016, February). Code Music with Sonic Pi. The MagPi Magazine. https://magazine.raspberrypi.com/books/essentials-sonic-pi-v1
 - Aaron, S., & Blackwell, A. F. (2013). From Sonic Pi to Overtone: Creative Musical Experiences with Domain-Specific and Functional Languages. FARM '13: Proceedings of the first ACM SIGPLAN workshop on Functional art, music, modeling & design, 35- 46. https://dl.acm.org/doi/pdf/10.1145/2505341.2505346
+- Crawford, E. [ethancrawford]. (2019, June 15). How to play sample with notes? [Online forum post]. In_Thread. https://in-thread.sonic-pi.net/t/how-to-play-sample-with-notes/2487
 - Davids Music Lab. (2017, September 18). Swing & Walking Bass - Sonic Pi Tutorial [Video]. YouTube. https://www.youtube.com/watch?v=4x7RXApCu6s 
-- How to play sample with notes? (2019, June 15). In_Thread. https://in-thread.sonic-pi.net/t/how-to-play-sample-with-notes/2487
-- Sonic Pi. (n.d.). Sonic Pi tutorial Pitch Bending. MagPi Articles. Retrieved 2 October 2026, from https://sonic-pi.net/tutorial-a.html#tut-a-17-sample-stretching
-- Mehackit. (2021). Mehackit Creative Programming Workshop with Sonic Pi. Mehackit.Org. https://sonic-pi.mehackit.org/
 - Hash Bang Studio. (2014, September 6). 15 ruby conditional. GitHub. https://github.com/hashbangstudio/Sonic-Pi-Examples/blob/master/15-ruby-conditional.rb
-- Sam Aaron. (n.d.). Sonic pi documentation (HI). Sam Aaron. Sonic Pi Documentation. Retrieved 8 October 2026, from https://sunderb.me/sonic-pi-docs-test/hi/reference/lang/sample.html
-- Sonic Pi. (n.d.). 5.3 Conditionals. Sonic Pi. Retrieved October 2026, from https://sonic-pi.net/tutorial-05.html#tut-05-3-conditionals- Sonic Pi. (n.d.). 3.6 External samples. Sonic Pi. Sonic-Pi.Et. Retrieved 5 October 2026, from https://sonic-pi.net/tutorial-03.html
-- Sonic Pi. (n.d.). 10 Time State. Sonic Pi. Retrieved October 2026, from https://sonic-pi.net/tutorial-10.html#tut-10-state
-- Łyczywek, R. (2018, October 15). How to write a good README for your GitHub project? Bulldogjob. Bulldogjob.Com. https://bulldogjob.com/readme/how-to-write-a-good-readme-for-your-github-project
+- Mehackit. (2021). Mehackit Creative Programming Workshop with Sonic Pi. Mehackit.Org. https://sonic-pi.mehackit.org/
+- Sam Aaron. (n.d.). Sonic pi documentation (HI). Sonic Pi Documentation. Retrieved 8 October 2026, from https://sunderb.me/sonic-pi-docs-test/hi/reference/lang/sample.html
+- Silva, K. De. (2023, June 29). OOP concepts: Mastering basics with real-life examples for easy understanding. Medium. https://medium.com/@kalanamalshan98/oop-concepts-mastering-basics-with-real-life-examples-for-easy-understanding-part-1-da5b8fc21036
+- Sonic Pi. (n.d.). Sonic Pi tutorial Pitch Bending. Sonic Pi MagPi Articles. Retrieved 2 October 2026, from https://sonic-pi.net/tutorial-a.html#tut-a-17-sample-stretching
+- Sonic Pi. (n.d.). 5.3 Conditionals. Sonic Pi. Retrieved October 2026, from https://sonic-pi.net/tutorial-05.html#tut-05-3-conditionals
+- Sonic Pi. (n.d.). 3.6 External samples. Sonic Pi. Retrieved 5 October 2026, from https://sonic-pi.net/tutorial-03.html
+- Sonic Pi. (n.d.). 10 Time State. Sonic Pi. Retrieved October 2026, from https://sonic-pi.net/tutorial-10.html#tut-10-state 
+- Łyczywek, R. (2018, October 15). How to write a good README for your GitHub project? Bulldogjob. https://bulldogjob.com/readme/how-to-write-a-good-readme-for-your-github-project
 - Zulla, H. (2016, May 23). 7.3 Sliding-Parameters. GitHub. https://github.com/sonic-pi-net/sonic-pi/blob/dev/etc/doc/tutorial/07.3-Sliding-Parameters.md
