@@ -16,7 +16,7 @@ Bass Practice Partner is an interactive, customisable 12-bar blues backing track
 
 
 ## General Information
-Pre-recorded backing tracks aren't often ideal for bass practice, whether that is because they are too bass heavy, or lacking opportunities to customise the arrangement during practice, making it difficult to hear yourself playing clearly. 
+Pre-recorded backing tracks aren't often ideal for bass practice, whether that is because they are already too bass heavy, or lacking opportunities to customise the arrangement during practice. 
 
 Bass Practice Partner addresses this by allowing users to control different elements of a 12-bar blues arrangement in real time.
 
