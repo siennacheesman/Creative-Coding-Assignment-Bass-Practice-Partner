@@ -42,7 +42,7 @@ Watch video demonstration here > https://youtu.be/fyaDzqhWGfs
 
 
 ## Screenshots
-<img width="719" height="424" alt="Screenshot 2026-10-31 at 4 01 41 pm" src="https://github.com/user-attachments/assets/d680be5b-ee82-435a-aad9-8a6440bd6b23" />
+! [Bass practice partner controls] (controls screenshot)
 
 
 
