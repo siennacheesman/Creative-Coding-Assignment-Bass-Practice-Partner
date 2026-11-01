@@ -36,9 +36,9 @@ Watch video demonstration here > https://youtu.be/fyaDzqhWGfs
 - Adjustable key signature: Change the musical key without interrupting playback.
 - Tempo control: Adjust the playback speed to suit different practice needs.
 - Individual instrument controls: Enable or disable individual instruments to customise the arrangement.
-- Plays a swing rhythm composition
-- Custom sounds: Uses both synthesisers and external audio samples to recreate a jazz ensemble, including trombone, percussion, keyboard trumpet and saxophone.
-- Synchronised playback: Coordinates the different instrumental parts throughout the arrangement.
+- Swing rhythm: Uses uneven beat intervals to recreate a jazz swing feel.
+- Instrument sounds: Uses both synthesisers and external audio samples to recreate a jazz ensemble, including trombone, percussion, keyboard trumpet and saxophone.
+- Synchronised playback: Uses timing events to coordinate the instrumental parts.
 
 
 ## Screenshots
@@ -49,9 +49,9 @@ Watch video demonstration here > https://youtu.be/fyaDzqhWGfs
 ## Setup
 To run Bass Practice Partner: 
 1. Download and Install Sonic Pi.
-2. Download the project code and the accompanying audio samples:
-   > trumpet.wav
-   > alto-sax.wav
+2. Download the Sonic Pi code and both accompanying audio files from the repository:
+   > Saxophone External Sample (DOWNLOAD THIS)
+   > Trumpet External Sample (DOWNLOAD THIS)
 4. Open Sonic Pi and load the project code into a clean buffer.
 5. Locate the sample commands in the trumpet and saxophone functions.
 6. Replace existing file paths with the locations where you saved the corresponding .wav files on your computer.
@@ -64,25 +64,15 @@ Important: Both audio files are required for the trumpet and saxophone parts to 
 The main controls are located at the beginning of the code under BASS PRACTICE SETTINGS and INSTRUMENT CONTROLS. 
 1. Adjusting the Tempo
 Change the value of use_bpm to change the playback speed.
-
-use_bpm 110
-
-The default tempo is 110 beats per minute (BPM). Lower values produce a slower backing track while higher values increase the speed.
+The default tempo is 110 beats per minute (BPM). Lower values slow down the backing track, while higher values increase its speed.
 
 2. Changing the Key Signature
 Modify requested_key to select the key you want to practice in.
-set :requested_key, :c
-The default key is C. Replace :d with another note, such as :d, :f or :g
-The program automatically applies the requested key at the beginning of the next 12-bar progression, allowing the instruments to change key together without interrupting playback.
+The default key is C. Replace :c with another note, such as :d, :f or :g
+The program applies the requested key at the next 12-bar progression, allowing instruments to change key together without interrupting playback.
 
 3. Selecting Instruments
-Each instrument can be individually enabled or disabled using Boolean values (true or false)
-
-set :piano_on, false
-set :trombone_on, false
-set :trumpet_on, false
-set :sax_on, false
-set :drums_on, true
+Each instrument can be enabled or disabled independently using Boolean values (true or false)
 
 > true - the instrument plays
 > false - the instrument is muted
@@ -91,7 +81,7 @@ Change these values to create different combinations of accompaniment.
 By default, only the drums are enabled.
 
 4. Applying Changes
-After adjusting the settings, press RUN again to update the program (this will not stop the playback).
+After adjusting the settings, press RUN to apply your changes. Sonic Pi supports live coding, allowing the program to update while the music keeps playing.
 
 5. Practicing improvisation
 Once the backing track begins:
@@ -102,7 +92,7 @@ Once the backing track begins:
    
 ## Project Status
 Project is: Functional Prototype
-The main features have been implemented. The project currently operates within Sonic Pi and requires users to modify settings through the code. 
+All core features have been implemented, including adjustable key signature, tempo control and independent instrument settings. The prototype operates within Sonic Pi and currently requires users to modify settings directly in the code.
 
 ## Room for Improvement
 
