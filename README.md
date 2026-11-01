@@ -49,8 +49,8 @@ Watch video demonstration here > https://youtu.be/fyaDzqhWGfs
 To run Bass Practice Partner: 
 1. Download and Install Sonic Pi.
 2. Download the Sonic Pi code and both accompanying audio files from the repository:
-   > Saxophone External Sample (DOWNLOAD THIS)
-   > Trumpet External Sample (DOWNLOAD THIS)
+   - Saxophone External Sample (to download)
+   - Trumpet External Sample (to download)
 4. Open Sonic Pi and load the project code into a clean buffer.
 5. Locate the sample commands in the trumpet and saxophone functions.
 6. Replace existing file paths with the locations where you saved the corresponding .wav files on your computer.
