@@ -48,7 +48,7 @@ Watch video demonstration here > https://youtu.be/fyaDzqhWGfs
 ## Setup
 To run Bass Practice Partner: 
 1. Download and Install Sonic Pi.
-2. Download the Sonic Pi code and both accompanying audio files from the repository:
+2. Download the Sonic Pi code (Bass Practice Partner Final Code Submission) and both accompanying audio files from the repository:
    - Saxophone External Sample (to download)
    - Trumpet External Sample (to download)
 4. Open Sonic Pi and load the project code into a clean buffer.
@@ -84,10 +84,10 @@ The main controls are located at the beginning of the code under BASS PRACTICE S
 
 5. Practicing improvisation
 - Once the backing track begins:
-1. Listen to the four-beat count in
-2. Play along with the repeating 12-bar progression
-3. Experiment with different bass scales, improvisation techniques and rhythms
-4. Adjust the tempo, key and accompanying instruments to create different practice scenarios 
+  1. Listen to the four-beat count in
+  2. Play along with the repeating 12-bar progression
+  3. Experiment with different bass scales, improvisation techniques and rhythms
+  4. Adjust the tempo, key and accompanying instruments to create different practice scenarios 
    
 ## Project Status
 Project is: Functional Prototype
